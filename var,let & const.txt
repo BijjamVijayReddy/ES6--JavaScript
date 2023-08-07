@@ -8,7 +8,7 @@
   * These two keywords provide Block Scope in JavaScript.
   
   The var keyword is used to declare function-scoped variables and globally-scoped variables.
-  var x = 2; // Gobal Scope 
+  var x = 2; // Global Scope 
   if (x === 2) {
   var x = 3;  //Function Scope
   console.log(x); // expected output: 3
@@ -26,7 +26,7 @@
  console.log(a) // Expected output: 20
  console.log(exe); // Uncaught ReferenceError: exe is not defined
 
- ^ Uing the const keyword lets you declare constants that cannot be changed later once you’ve declared them.
+ ^ Using the const keyword lets you declare constants that cannot be changed later once you’ve declared them.
  const a=5;
  const pi = 3.14;
  pi = 1.5; // Uncaught TypeError: Assignment to constant variable.
@@ -35,6 +35,6 @@
  conclusion  
   var -- Function Scoped and globally Scope. 
   let -- Block-scope
-  const -- cann't changes once you declared.
+  const -- cannot changes once you declared.
  
                                                             
